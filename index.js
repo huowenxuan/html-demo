@@ -23,10 +23,7 @@ window.onload = () => {
       // 第一个元素显示
       addClass(li, 'add-active')
     }
-    let img = document.createElement(`img`)
-    img.className = 'large-img'
-    img.src = data[i]
-    li.appendChild(img)
+    li.innerHTML = `<img class="large-img" src="${data[i]}"/>`
     ul.appendChild(li)
   }
   let lis = ul.getElementsByTagName('li')
@@ -38,6 +35,6 @@ window.onload = () => {
       else removeClass(lis[i], 'add-active')
     }
     if (++_cur >= lis.length) _cur = 0
-  }, 2000)
+  }, 5000)
 }
 
