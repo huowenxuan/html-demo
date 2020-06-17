@@ -1,0 +1,32 @@
+#left-side {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 210px;
+}
+
+#left-side-logo {
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    width: 84px;
+    transform: translate(-42px, -80px);
+    font-size: 5rem;
+}
+
+#logo {
+    width: 100%;
+}
+
+#side-menu {
+    position: fixed;
+    left: 20px;
+    top: 20px;
+}
+
+#side-footer {
+    position: fixed;
+    left: 20px;
+    bottom: 20px;
+}

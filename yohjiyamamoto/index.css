@@ -21,27 +21,6 @@ a {
     display: block;
 }
 
-#left-side {
-    position: fixed;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    width: 210px;
-}
-
-#left-side-logo {
-    left: 50%;
-    top: 50%;
-    position: absolute;
-    width: 84px;
-    transform: translate(-42px, -80px);
-    font-size: 5rem;
-}
-
-#logo {
-    width: 100%;
-}
-
 #main {
     padding-left: 210px;
 }
@@ -169,7 +148,7 @@ a {
     justify-content: center;
     color: white;
     opacity: 0;
-    transition: opacity 1s;
+    transition: opacity .5s;
 }
 .anim-ul-box2:hover .large-img-overlay2 {
     opacity: 1;
@@ -180,6 +159,10 @@ a {
 .large-img-overlay2 strong {
     font-size: 2rem;
 }
-.anim-ul-box2:hover .large-img-overlay2 {
 
+footer {
+    text-align: right;
+    margin: 10px 15px 10px 0;
+    font-size: 11px;
+    color: #a1a1a1;
 }
