@@ -3,13 +3,14 @@ body {
     font-size: 62.5%;
 }
 
-html{
+html {
     line-height: 1;
 }
+
 * {
     margin: 0;
     padding: 0;
-    box-sizing:border-box;
+    box-sizing: border-box;
 }
 
 a {
@@ -52,7 +53,6 @@ a {
 }
 
 
-
 .large-img {
     width: 100%;
     height: 100%;
@@ -88,6 +88,7 @@ a {
     position: relative;
     overflow: hidden;
 }
+
 .anim-ul-box:hover .large-img-overlay {
     bottom: 0;
 }
@@ -119,4 +120,66 @@ a {
     line-height: 3rem;
     opacity: 1;
     overflow: hidden;
+}
+
+.two-img-box {
+    padding-top: 50%;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.two-img-box > div {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+}
+
+.two-img-side {
+    flex: 1;
+    height: 100%;
+}
+
+.up-down-img {
+    width: 100%;
+    height: 100%;
+}
+
+.anim-ul-box2 {
+    position: relative;
+    background-color: red;
+    width: 100%;
+}
+.up-down {
+    height: 50%;
+}
+.large-img-overlay2 {
+    position: absolute;
+    left: 15px;
+    right: 15px;
+    top: 15px;
+    bottom: 15px;
+    background-color: rgba(0, 0, 0, .15);
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    opacity: 0;
+    transition: opacity 1s;
+}
+.anim-ul-box2:hover .large-img-overlay2 {
+    opacity: 1;
+}
+.large-img-overlay2 span {
+    font-size: 1rem;
+}
+.large-img-overlay2 strong {
+    font-size: 2rem;
+}
+.anim-ul-box2:hover .large-img-overlay2 {
+
 }
